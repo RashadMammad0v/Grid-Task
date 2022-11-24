@@ -1,0 +1,88 @@
+.navbar{
+    padding-top: 20px;
+    padding-bottom: 16px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 555;
+    border: 1px solid rgb(247, 244, 244);
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+
+}
+
+.navbar .row .col-lg-6 a{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #212529;
+}
+
+.navbar .row .col-lg-6 a:hover{
+   text-decoration:none;
+    color: #2937f0;
+   
+}
+
+.navbar .row .col-lg-2 p{
+    font-weight: 300;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+#Download{
+    margin-right: 30px;
+
+}
+
+#Download p:hover{
+    color: rgb(117, 123, 124);
+    cursor: pointer;
+    
+}
+#Features{
+    display: flex;
+    justify-content: end;
+    
+}
+#Features p:hover{
+    color: rgb(117, 123, 124);
+    cursor: pointer;
+    
+}
+
+
+#FeedBack button{
+    margin-top: -7px;
+    display: flex;
+    align-items: center;
+    padding: 7px 12px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: inherit;
+    background-color: #2937f0;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid transparent;
+}
+#FeedBack button i{
+margin-right: 5px;
+align-items: center;
+display: flex;
+font-family: Verdana;
+font-size: 16px
+}
+
+#FeedBack button:hover{
+    background-color: blue;
+}
+
+#nav-right{
+    display:flex;
+    justify-content: flex-end;
+}

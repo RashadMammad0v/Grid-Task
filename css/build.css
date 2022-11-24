@@ -1,0 +1,56 @@
+.build{
+    height: 600px;
+
+}
+.build .container-fluid{
+    position: relative;
+    height: 100%;
+    background-image: url(../img/arch.jfif) ;
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    padding: 0;
+
+}
+
+.build .container-fluid::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0,0,0,0.6);
+    
+
+}
+
+.build .col-lg-5{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.build .col-lg-5 h3{
+    color: white;
+    font-size: 70px;
+    font-family: "Newsreader";
+    font-weight: bold;
+}
+
+.build .col-lg-5 p{
+    margin-top: 20px;
+    width: 40%;
+    color: white;
+    font-family:"Segoe UI Symbol";
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 25px;
+    transition: 0.4s ease;
+}
+
+.build .col-lg-5 p:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

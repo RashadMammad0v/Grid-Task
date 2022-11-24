@@ -1,0 +1,49 @@
+.applications{
+    height: 250px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(6,0,36,0.8183648459383753) 0%, rgba(121,38,100,1) 0%, rgba(89,0,255,1) 100%);
+
+}
+.applications .row .col-lg-6 img{
+    cursor: pointer;
+    height: 45px;
+}
+
+.applications .row .col-lg-12 h2{
+    margin-bottom: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: "Segoe UI Symbol";
+}
+
+.applications .row .col-lg-12{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h4{
+    color: rgb(179, 175, 175);
+}
+.footer .linkss ul{
+    display: flex;
+    
+}
+.footer .linkss ul li{
+    margin-left: 30px;
+    font-size: 14px;
+    color: rgb(179, 175, 175);
+
+}

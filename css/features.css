@@ -1,0 +1,76 @@
+.features{
+    height: 600px;
+    /* border: 1px solid black; */
+    position: relative;
+    /* margin-top: 60px; */
+    padding-top: 160px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+#circle-case{
+    display: flex;
+    justify-content: center;
+}
+.features .circle{
+    padding-top:10px ;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 300px;
+    position: relative;
+    border-radius: 50%;
+    /* background-color: blue; */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(59, 25, 224, 0.818) 0%, rgb(102, 23, 230) 0%, rgb(93, 29, 196) 100%);
+
+
+}
+.features .iphone{
+    position: absolute;
+    margin-left: 120px;
+}
+.iphone img{
+    width: 100%;
+    height: 470px;
+    margin-top: -90px;
+
+}
+
+.features .video{
+    position: absolute;
+    margin-left: 120px;
+}
+.video video{
+    width: 100%;
+    height: 440px;
+    margin-top: -75px;
+}
+
+.col-lg-7{
+    text-align: center;
+}
+.col-lg-7 .down{
+    margin-top: 20px;
+}
+.col-lg-7 i{
+    font-size: 65px;
+    color: #9f1ae2
+}
+.col-lg-7 h3{
+    font-weight: bold;
+    font-family: "Segoe UI Symbol";
+    font-size: 30px;
+
+
+}
+.col-lg-7 p{
+    font-size: 17px;
+    font-family: "Segoe UI Symbol";
+    color: gray;
+
+}
+.col-lg-7 .row{
+    margin-top: -50px;
+   
+}

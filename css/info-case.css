@@ -1,0 +1,33 @@
+.info-case{
+    height: 650px;
+    padding-top: 70px;
+    
+}
+
+.info-case img{
+    width: 100%;
+    height: 550px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+#info-case-text{
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+#info-case-text h1{
+    font-family: "Newsreader";
+    font-size: 65px;
+    font-weight: bold;
+}
+
+#info-case-text p{
+    margin-top: 25px;
+    font-size: 21px;
+    font-family: "Segoe UI Symbol";
+    color: gray;
+}
